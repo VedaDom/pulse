@@ -5,6 +5,9 @@
     "browser": true,
     "node": true
   },
+  "rules": {
+    "max-len": ["error", { "code": 4155 }]
+  },
   "settings": {
     "react": {
       "version": "detect"

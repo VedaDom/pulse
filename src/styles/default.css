@@ -1,0 +1,132 @@
+
+.p_default{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 331px auto;
+}
+
+.p_nav{
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.25);
+    display: grid;
+    grid-template-rows: 250px auto 100px;
+}
+
+.p_content{
+    padding: 16px;
+}
+
+.p_logo{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.logo{
+    width: 250px;
+}
+
+.p_user{
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 140px auto;
+}
+
+.p_user-info{
+    display: grid;
+    justify-items: center;
+    align-content: flex-start;
+}
+
+.p_footer{
+    display: grid;
+    justify-items: center;
+}
+
+
+
+.p_nav_bar{
+    padding: 8px 200px;
+}
+
+.p_contents{
+ padding: 32px;
+ display: grid;
+ justify-content: center;
+}
+
+.p_card{
+    width: 600px;
+    height: 200px;
+    padding: 16px 32px;
+    box-shadow: rgba(0, 0, 0, 0.133) 0px 1.6px 3.6px 0px, rgba(0, 0, 0, 0.11) 0px 0.3px 0.9px 0px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    justify-items: start;
+}
+
+.badge_btn{
+    margin: 16px 0px;
+}
+
+.p_progress{
+    display: grid;
+    align-items: center;
+    grid-template-rows: 1fr;
+    grid-template-columns: 25px repeat(11, 52.2px);
+
+}
+
+.p_prog_item_active{
+    background-color: #0078d4;
+}
+
+.p_circle{
+    width: 23px;
+    height: 23px;
+    border: 1px solid #0078d4;
+    border-radius: 100%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    cursor: pointer;
+}
+
+.p_line{
+    width: 26px;
+    border: 1px solid #0078d4;
+}
+
+.p_c_w{
+    color: white;
+}
+
+.p_c_d{
+    color: #C4C4C4;
+}
+
+.p_prog_item{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-items: center;
+}
+
+.p_floating-action_btn{
+    position: absolute;
+    right: 32px;
+    bottom: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: #0078d4;
+    color: white;
+    font-size: 25px;
+    line-height: 0px;
+    cursor: pointer;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}

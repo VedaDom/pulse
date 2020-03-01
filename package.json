@@ -14,6 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@uifabric/react-cards": "^0.109.30",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "enzyme-to-json": "^3.4.4",
@@ -21,6 +22,7 @@
     "jest": "^25.1.0",
     "jest-canvas-mock": "^2.2.0",
     "jest-localstorage-mock": "^2.4.0",
+    "office-ui-fabric-react": "^7.98.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
   },
@@ -31,11 +33,13 @@
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.0.6",
     "coveralls": "^3.0.9",
+    "css-loader": "^3.4.2",
     "eslint": "^6.8.0",
     "eslint-config-react": "^1.1.7",
     "eslint-loader": "^3.0.3",
     "eslint-plugin-react": "^7.18.3",
     "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.1.3",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
