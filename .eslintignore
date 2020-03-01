@@ -1,0 +1,10 @@
+# Build
+build/
+webpack/
+# Tests
+src/**/*.spec.js
+/**/*.test.js
+# Dependency
+node_modules/
+
+package-lock.json
